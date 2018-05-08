@@ -11,11 +11,28 @@ a {
 }
 
 div{
-    background-color: aliceblue;
     margin: 5px;
     padding: 5px;
-    overflow: hidden;
-    height: 1em;
+}
+
+#Title{
+    font-size:1.2em;
+}
+
+#exampleText{
+    visibility: hidden;
+}
+
+#grammarText{
+    visibility: hidden;
+}
+
+#meaningText{
+    visibility: hidden;
+}
+
+#definitionText{
+    visibility: hidden;
 }
 
 #Grammar{

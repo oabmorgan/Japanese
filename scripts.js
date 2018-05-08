@@ -4,17 +4,17 @@ var english = document.getElementById("English");
 var definition = document.getElementById("Definition");
 
 grammar.onclick = function() {
-    this.style.height = "auto";
+    document.getElementById("grammarText").style.visibility = 'visible';
 };
 
 example.onclick = function() {
-    this.style.height = "auto";
+    document.getElementById("exampleText").style.visibility = 'visible';
 };
 
 english.onclick = function() {
-    this.style.height = "auto";
+    document.getElementById("meaningText").style.visibility = 'visible';
 };
 
 definition.onclick = function() {
-    this.style.height = "auto";
+    document.getElementById("definitionText").style.visibility = 'visible';
 };
