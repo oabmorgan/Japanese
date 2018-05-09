@@ -1,23 +1,36 @@
 <cards>
+    
     <card>
-        <grammar>grammar 1</grammar>
-        <english>ad</english>
-        <example>asd</example>
-        <exampleAnswer>adssaddas</exampleAnswer>
-        <notes>asddd</notes>
+        <grammar>だ / です</grammar>
+        <english>to be (copula)</english>
+        <example>それは非常に面白いコメントですね。</example>
+        <exampleAnswer>That’s a very interesting comment.</exampleAnswer>
+        <notes>Present affirmative: だ (plain); です (polite)
+Present negative: じゃない/ではない (plain); じゃありません/ではありません (polite)
+Past affirmative: だった (plain); でした (polite)
+Past negative: じゃなかった/ではなかった (plain); ではありませんでした/じゃありませんでした/じゃなかったです/ではなかったです (polite)</notes>
     </card>
+    
     <card>
-        <grammar>grammar 2</grammar>
-        <english>qd</english>
-        <example>qd</example>
-        <exampleAnswer>adssaddas</exampleAnswer>
-        <notes>asdasd</notes>
+        <grammar>だけ</grammar>
+        <english>only, just</english>
+        <example>病室にあるのは、ひとり用のベッドが一床だけだ。</example>
+        <exampleAnswer>The hospital room only has a single bed.</exampleAnswer>
+        <notes>Verb-casual + だけ
+いadj + だけ
+なadj + だけ
+Noun + だけ</notes>
     </card>
+    
     <card>
-        <grammar>grammar 3</grammar>
-        <english>asdasdda afdfds</english>
-        <example>asdadsdsdasasd</example>
-        <exampleAnswer>adssaddas</exampleAnswer>
-        <notes>ntoedassa</notes>
+        <grammar>だろう</grammar>
+        <english>probably; seems; I think; I guess; I wonder; I hope; don’t you agree?</english>
+        <example>どうして私はあんなことをせずにこうしなかったのだろう。</example>
+        <exampleAnswer>Why did I not do this, instead of that?</exampleAnswer>
+        <notes>Verb-casual + だろう
+い-adjective + だろう
+な-adjective + だろう
+Noun + だろう</notes>
     </card>
+    
 </cards>
