@@ -25,8 +25,7 @@ xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         console.log("test2");
         var cardDoc = xhttp.responseXML;
-        var cardCount = cardDoc.getElementsByClassName("card").length;
-        document.getElementById("Title").innerHTML = cardCount + " cards loaded";
+        document.getElementById("Title").innerHTML = "test: "+cardDoc.children.count;
     }
   };
 
