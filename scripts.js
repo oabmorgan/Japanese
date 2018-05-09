@@ -36,7 +36,7 @@ xml.onreadystatechange = function() {
         
         document.getElementById("Grammar").innerHTML = grammar;
         document.getElementById("Example").innerHTML = example;
-        document.getElementById("ExampleText").innerHTML = exampleAnswer;
+        document.getElementById("ExampleText").innerHTML = "hello";
         document.getElementById("EnglishText").innerHTML = english;
         document.getElementById("NotesText").innerHTML = notes;
     }
