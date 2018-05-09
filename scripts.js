@@ -19,9 +19,9 @@ definition.onclick = function() {
     document.getElementById("definitionText").style.visibility = 'visible';
 };
 
-var xhttp = new XMLHttpRequest();
+var xml = new XMLHttpRequest();
 
-xhttp.onreadystatechange = function() {
+xml.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         var xmlDoc = xml.responseXML;
         var x = xmlDoc.getElementsByTagName('title')[0];
@@ -30,5 +30,5 @@ xhttp.onreadystatechange = function() {
     }
 };
 
-xhttp.open("GET", "content.xml", true);
-xhttp.send();
+xml.open("GET", "content.xml", true);
+xml.send();
