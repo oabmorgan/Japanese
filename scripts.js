@@ -3,10 +3,6 @@ var example = document.getElementById("Example");
 var english = document.getElementById("English");
 var notes = document.getElementById("Notes");
 
-grammar.onclick = function() {
-    document.getElementById("GrammarText").style.visibility = 'visible';
-};
-
 example.onclick = function() {
     document.getElementById("ExampleText").style.visibility = 'visible';
 };
