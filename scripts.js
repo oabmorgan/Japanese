@@ -30,5 +30,3 @@ xhttp.onreadystatechange = function() {
 
 xhttp.open("GET", "content.xml", true);
 xhttp.send();
-
-alert("test");
