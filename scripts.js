@@ -26,7 +26,7 @@ var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         console.log("test2");
-      document.getElementById("Title").innerHTML = "pass";
+        document.getElementById("Title").innerHTML = (xmlDoc.getElementsByTagName("card")[0].childNodes[0].nodeValue);
     }
   };
 
