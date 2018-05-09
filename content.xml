@@ -1,11 +1,20 @@
 <cards>
     <card>
         <grammar>grammar 1</grammar>
+        <english></english>
+        <example></example>
+        <notes></notes>
     </card>
     <card>
         <grammar>grammar 2</grammar>
+        <english></english>
+        <example></example>
+        <notes></notes>
     </card>
     <card>
         <grammar>grammar 3</grammar>
+        <english>asdasdda afdfds</english>
+        <example>asdadsdsdasasd</example>
+        <notes>ntoedassa</notes>
     </card>
 </cards>

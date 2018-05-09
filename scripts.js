@@ -1,7 +1,7 @@
 var grammar = document.getElementById("Grammar");
 var example = document.getElementById("Example");
 var english = document.getElementById("English");
-var definition = document.getElementById("Definition");
+var notes = document.getElementById("Notes");
 
 grammar.onclick = function() {
     document.getElementById("grammarText").style.visibility = 'visible';
@@ -26,8 +26,17 @@ xml.onreadystatechange = function() {
         var xmlDoc = xml.responseXML;
         var cardCount = xmlDoc.getElementsByTagName("card").length;
         var cardID = Math.floor(Math.random() * (cardCount));
+        
         var grammar = xmlDoc.getElementsByTagName("grammar")[cardID].childNodes[0].nodeValue;
-        document.getElementById("Grammar").innerHTML = grammar + " cardcount: "+cardCount; 
+        var example = xmlDoc.getElementsByTagName("example")[cardID].childNodes[0].nodeValue;
+        var english = xmlDoc.getElementsByTagName("english")[cardID].childNodes[0].nodeValue;
+        var notes = xmlDoc.getElementsByTagName("notes")[cardID].childNodes[0].nodeValue;
+        
+        
+        document.getElementById("Grammar").innerHTML = grammar;
+        document.getElementById("Example").innerHTML = example;
+        document.getElementById("English").innerHTML = english;
+        document.getElementById("Notes").innerHTML = notes;
     }
 };
 
