@@ -23,8 +23,10 @@ var xhttp = new XMLHttpRequest();
 
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-        console.log("test2");
-        document.getElementById("Title").innerHTML = "test2: "+xhttp.responseXML.getElementsByTagName("card")[0].nodeValue;
+        var xmlDoc = xhttp.responseXML;
+        var x = xmlDoc.getElementsByTagName("card")[0];
+        var y = x.childNodes[0];
+        document.getElementById("Grammar").innerHTML = y.nodeValue;
     }
   };
 
