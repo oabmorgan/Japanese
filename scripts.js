@@ -8,11 +8,11 @@ grammar.onclick = function() {
 };
 
 example.onclick = function() {
-    document.getElementById("EnglishText").style.visibility = 'visible';
+    document.getElementById("ExampleText").style.visibility = 'visible';
 };
 
 english.onclick = function() {
-    document.getElementById("MeaningText").style.visibility = 'visible';
+    document.getElementById("EnglishText").style.visibility = 'visible';
 };
 
 notes.onclick = function() {
@@ -29,12 +29,14 @@ xml.onreadystatechange = function() {
         
         var grammar = xmlDoc.getElementsByTagName("grammar")[cardID].childNodes[0].nodeValue;
         var example = xmlDoc.getElementsByTagName("example")[cardID].childNodes[0].nodeValue;
+        var exampleAnswer = xmlDoc.getElementsByTagName("exampleAnswer")[cardID].childNodes[0].nodeValue;
         var english = xmlDoc.getElementsByTagName("english")[cardID].childNodes[0].nodeValue;
         var notes = xmlDoc.getElementsByTagName("notes")[cardID].childNodes[0].nodeValue;
         
         
-        document.getElementById("GrammarText").innerHTML = grammar;
-        document.getElementById("ExampleText").innerHTML = example;
+        document.getElementById("Grammar").innerHTML = grammar;
+        document.getElementById("Example").innerHTML = example;
+        document.getElementById("ExampleText").innerHTML = exampleAnswer;
         document.getElementById("EnglishText").innerHTML = english;
         document.getElementById("NotesText").innerHTML = notes;
     }
