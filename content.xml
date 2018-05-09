@@ -33,4 +33,121 @@ Noun + だけ</notes>
 Noun + だろう</notes>
     </card>
     
+    <card>
+        <grammar>で - 1</grammar>
+        <english>in, at, on</english>
+        <example>この帽子はどこで買いましたか？</example>
+        <exampleAnswer>Where did you buy this hat?</exampleAnswer>
+        <notes>Location + で</notes>
+    </card>
+    
+    <card>
+        <grammar>で - 2</grammar>
+        <english>by; for; in; using; with</english>
+        <example>震える指で、彼女は封筒を開けた。</example>
+        <exampleAnswer>She opened the envelope with her trembling fingers.</exampleAnswer>
+        <notes>Noun + で</notes>
+    </card>
+    
+    <card>
+        <grammar>でしょう</grammar>
+        <english>I think, probably</english>
+        <example>明日は雨が降るでしょう。</example>
+        <exampleAnswer>It will probably rain tomorrow.</exampleAnswer>
+        <notes></notes>
+    </card>
+    
+    <card>
+        <grammar>が - 1</grammar>
+        <english>subject marker</english>
+        <example>非常階段があるな。これは便利だ。</example>
+        <exampleAnswer>Here is an emergency staircase. That is convenient.</exampleAnswer>
+        <notes></notes>
+    </card>
+    
+    <card>
+        <grammar>が - 2</grammar>
+        <english>but, however, still</english>
+        <example>このアパートは古くて狭いが、学校から近くて便利だ。</example>
+        <exampleAnswer>Though this apartment is old and small, it’s convenient because it’s near my school.</exampleAnswer>
+        <notes>Sentence 1 + が + Sentence 2</notes>
+    </card>
+    
+    <card>
+        <grammar>がある</grammar>
+        <english>to be, to exist</english>
+        <example>お金がありません。</example>
+        <exampleAnswer>I have no money.</exampleAnswer>
+        <notes>Person/Place + (に)は + thing + がある</notes>
+    </card>
+    
+    <card>
+        <grammar>がいる</grammar>
+        <english>to exist, there is/are</english>
+        <example>教室には生徒がいる。</example>
+        <exampleAnswer>There are students in the classroom.</exampleAnswer>
+        <notes>Person/Place + (に)は + thing + がいる</notes>
+    </card>
+    
+    <card>
+        <grammar>ほうがいい</grammar>
+        <english>had better, should, it’d be better to</english>
+        <example>英会話をもっと練習したほうがいい。</example>
+        <exampleAnswer>You should practice speaking English more.</exampleAnswer>
+        <notes>Verb-casual past + ほうがいい
+Verb-casual, non-past + ほうがいい</notes>
+    </card>
+    
+    <card>
+        <grammar>いちばん</grammar>
+        <english>the most, the best</english>
+        <example>私は少女漫画を読むのが一番好きだ。</example>
+        <exampleAnswer>I love reading shojo manga the most.</exampleAnswer>
+        <notes>Noun + は/が一番 + adjective + だ
+Verb-dictionary form + のは/のが一番 + adjective + だ</notes>
+    </card>
+    
+    <card>
+        <grammar>か - 2</grammar>
+        <english>or</english>
+        <example>大抵の家には二人か三人の子どもがいました。</example>
+        <exampleAnswer>A typical family had two or three children.</exampleAnswer>
+        <notes>Verb + か
+Noun + か
+Adjective + か</notes>
+    </card>
+    
+    <card>
+        <grammar>か – 1</grammar>
+        <english>question particle</english>
+        <example>どうやってベッドを動かしたか教えてくれる？</example>
+        <exampleAnswer>Can you tell me how the bed was moved?</exampleAnswer>
+        <notes>Sentence + か</notes>
+    </card>
+    
+    <card>
+        <grammar>から - 1</grammar>
+        <english>since, because</english>
+        <example>寒いから、窓を閉めてください。</example>
+        <exampleAnswer>samui kara, mado o shimete kudasai.</exampleAnswer>
+        <notes>Verb + から
+いadjective + から
+なadjective + だから
+Noun +　だから</notes>
+    </card>
+    
+    <card>
+        <grammar>から - 2</grammar>
+        <english>from, since</english>
+        <example>ここから新宿駅まで歩いてどれぐらいかかりますか。</example>
+        <exampleAnswer>How long does it take to walk from here to Shinjuku station?</exampleAnswer>
+        <notes>Noun + から</notes>
+    </card>
+    <card>
+        <grammar>けど / けれども</grammar>
+        <english>but; however; although</english>
+        <example>悪いけど、次の日曜日は仕事で人と会う約束があって…</example>
+        <exampleAnswer>Sorry, I have an appointment to meet with someone next Sunday for work…</exampleAnswer>
+        <notes>Sentence + けど/けれど/けれども</notes>
+    </card>
 </cards>
