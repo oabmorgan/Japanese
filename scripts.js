@@ -24,12 +24,11 @@ var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         console.log("test2");
-        var cardDoc = xhttp.responseXML;
-        document.getElementById("Title").innerHTML = "test: "+cardDoc.children.count;
+        document.getElementById("Title").innerHTML = "test: "+xhttp.responseText;
     }
   };
 
 xhttp.open("GET", "content.xml", true);
 xhttp.send();
 
-console.log("test1");
+alert("test");
