@@ -15,7 +15,7 @@ english.onclick = function() {
     document.getElementById("meaningText").style.visibility = 'visible';
 };
 
-definition.onclick = function() {
+notes.onclick = function() {
     document.getElementById("definitionText").style.visibility = 'visible';
 };
 
