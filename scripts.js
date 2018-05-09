@@ -24,7 +24,7 @@ var xml = new XMLHttpRequest();
 xml.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         var xmlDoc = xml.responseXML;
-        var x = xmlDoc.getElementsByTagName('title')[0];
+        var x = xmlDoc.getElementsByTagName('book')[0];
         var y = x.childNodes[0];
         document.getElementById("Grammar").innerHTML = y.nodeValue; 
     }
