@@ -19,19 +19,19 @@ div{
     font-size:1.2em;
 }
 
-#exampleText{
+#ExampleText{
     visibility: hidden;
 }
 
-#grammarText{
+#GrammarText{
     visibility: hidden;
 }
 
-#meaningText{
+#EnglishText{
     visibility: hidden;
 }
 
-#definitionText{
+#NotesText{
     visibility: hidden;
 }
 
