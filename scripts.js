@@ -4,19 +4,19 @@ var english = document.getElementById("English");
 var notes = document.getElementById("Notes");
 
 grammar.onclick = function() {
-    document.getElementById("grammarText").style.visibility = 'visible';
+    document.getElementById("GrammarText").style.visibility = 'visible';
 };
 
 example.onclick = function() {
-    document.getElementById("exampleText").style.visibility = 'visible';
+    document.getElementById("EnglishText").style.visibility = 'visible';
 };
 
 english.onclick = function() {
-    document.getElementById("meaningText").style.visibility = 'visible';
+    document.getElementById("MeaningText").style.visibility = 'visible';
 };
 
 notes.onclick = function() {
-    document.getElementById("definitionText").style.visibility = 'visible';
+    document.getElementById("NotesText").style.visibility = 'visible';
 };
 
 var xml = new XMLHttpRequest();
@@ -33,10 +33,10 @@ xml.onreadystatechange = function() {
         var notes = xmlDoc.getElementsByTagName("notes")[cardID].childNodes[0].nodeValue;
         
         
-        document.getElementById("Grammar").innerHTML = grammar;
-        document.getElementById("Example").innerHTML = example;
-        document.getElementById("English").innerHTML = english;
-        document.getElementById("Notes").innerHTML = notes;
+        document.getElementById("GrammarText").innerHTML = grammar;
+        document.getElementById("ExampleText").innerHTML = example;
+        document.getElementById("EnglishText").innerHTML = english;
+        document.getElementById("NotesText").innerHTML = notes;
     }
 };
 
