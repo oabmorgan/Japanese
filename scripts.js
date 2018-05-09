@@ -1,5 +1,3 @@
-
-
 var grammar = document.getElementById("Grammar");
 var example = document.getElementById("Example");
 var english = document.getElementById("English");
@@ -26,8 +24,8 @@ var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         console.log("test2");
-        var xmlObj = xhttp.documentElement;
-        var cardCount = xmlObj.getElementsByTagName("card").count;
+        var cardDoc = xhttp.responseXML;
+        var cardCount = cardDoc.getElementsByClassName("card").length;
         document.getElementById("Title").innerHTML = cardCount + " cards loaded";
     }
   };
