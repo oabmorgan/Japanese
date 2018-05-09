@@ -26,7 +26,7 @@ xml.onreadystatechange = function() {
         var xmlDoc = xml.responseXML;
         var card = xmlDoc.getElementsByTagName('card')[0];
         var nodes = card.childNodes;
-        document.getElementById("Grammar").innerHTML = nodes[0].nodeValue; 
+        document.getElementById("Grammar").innerHTML = nodes[0].innerHTML; 
     }
 };
 
