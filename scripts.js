@@ -2,6 +2,7 @@ var grammar = document.getElementById("Grammar");
 var example = document.getElementById("Example");
 var english = document.getElementById("English");
 var notes = document.getElementById("Notes");
+var button = document.getElementById("Button");
 
 example.onclick = function() {
     document.getElementById("ExampleText").style.visibility = 'visible';
