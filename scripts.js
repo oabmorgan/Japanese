@@ -34,8 +34,8 @@ xml.onreadystatechange = function() {
         var notes = xmlDoc.getElementsByTagName("notes")[cardID].childNodes[0].nodeValue;
         
         
-        document.getElementById("Grammar").innerHTML = grammar;
-        document.getElementById("Example").innerHTML = example;
+        document.getElementById("GrammarTitle").innerHTML = grammar;
+        document.getElementById("ExampleTitle").innerHTML = example;
         document.getElementById("ExampleText").innerHTML = exampleAnswer;
         document.getElementById("EnglishText").innerHTML = english;
         document.getElementById("NotesText").innerHTML = notes;
