@@ -23,10 +23,11 @@ var xml = new XMLHttpRequest();
 
 xml.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-        var cardID = 1;
         var xmlDoc = xml.responseXML;
+        var cardCount = xmlDoc.getElementsByTagName("card").count;
+        var cardID = 1;
         var grammar = xmlDoc.getElementsByTagName("grammar")[cardID].childNodes[0].nodeValue;
-        document.getElementById("Grammar").innerHTML = grammar; 
+        document.getElementById("Grammar").innerHTML = grammar + " cardcount: "+cardCount; 
     }
 };
 
