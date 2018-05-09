@@ -1,20 +1,11 @@
 <cards>
     <card>
-        <grammar>grammar 1</title>
-        <author>Giada De Laurentiis</author>
-        <year>2005</year>
-        <price>30.00</price>
+        <grammar>grammar 1</grammar>
     </card>
     <card>
-        <grammar>grammar 2</title>
-        <author>Giada De Laurentiis</author>
-        <year>2005</year>
-        <price>30.00</price>
+        <grammar>grammar 2</grammar>
     </card>
     <card>
-        <grammar>grammar 3</title>
-        <author>Giada De Laurentiis</author>
-        <year>2005</year>
-        <price>30.00</price>
+        <grammar>grammar 3</grammar>
     </card>
 </cards>
