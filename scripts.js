@@ -25,7 +25,7 @@ xml.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         var xmlDoc = xml.responseXML;
         var cardCount = xmlDoc.getElementsByTagName("card").length;
-        var cardID = 1;
+        var cardID = Math.floor(Math.random() * (cardCount));
         var grammar = xmlDoc.getElementsByTagName("grammar")[cardID].childNodes[0].nodeValue;
         document.getElementById("Grammar").innerHTML = grammar + " cardcount: "+cardCount; 
     }
