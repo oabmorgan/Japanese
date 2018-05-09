@@ -24,9 +24,9 @@ var xml = new XMLHttpRequest();
 xml.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         var xmlDoc = xml.responseXML;
-        var card = xmlDoc.getElementsByTagName('card')[0];
-        var nodes = xmlDoc.getElementsByTagName('grammar')[0];
-        document.getElementById("Grammar").innerHTML = nodes.nodeValue; 
+        var x = xmlDoc.getElementsByTagName("grammar")[0];
+        var y = x.childNodes[0];
+        document.getElementById("Grammar").innerHTML = y.nodeValue; 
     }
 };
 
