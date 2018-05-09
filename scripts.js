@@ -24,7 +24,7 @@ var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         console.log("test2");
-        document.getElementById("Title").innerHTML = "test12: "+xhttp.responseText;
+        document.getElementById("Title").innerHTML = "test2: "+xhttp.response.childNodes[0].childNodes[0].nodeValue;
     }
   };
 
