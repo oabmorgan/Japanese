@@ -23,12 +23,12 @@ var xhttp = new XMLHttpRequest();
 
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-        var xmlDoc = xhttp.responseXML;
-        var x = xmlDoc.getElementsByTagName("card")[0];
+        var xmlDoc = xml.responseXML;
+        var x = xmlDoc.getElementsByTagName('title')[0];
         var y = x.childNodes[0];
-        document.getElementById("Grammar").innerHTML = y.nodeValue;
+        document.getElementById("Grammar").innerHTML = y.nodeValue; 
     }
-  };
+};
 
 xhttp.open("GET", "content.xml", true);
 xhttp.send();
