@@ -15,9 +15,23 @@ div{
     padding: 5px;
 }
 
-#Title{
+#GrammarTitle{
     font-size:1.2em;
 }
+
+#ExampleTitle{
+    font-size:1.2em;
+}
+
+#EnglishTitle{
+    font-size:1.2em;
+}
+
+#NotesTitle{
+    font-size:1.2em;
+}
+
+
 
 #ExampleText{
     visibility: hidden;
