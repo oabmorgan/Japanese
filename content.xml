@@ -1,0 +1,12 @@
+<card>
+    <grammar>ほうがいい</grammar>
+    <meaning>had better, should, it’d be better to</meaning>
+    <example>
+        <text>英会話をもっと練習したほうがいい。</text>
+        <translation>You should practice speaking English more.</translation>
+    </example>
+    <extra>
+        Verb-casual past + ほうがいい
+        Verb-casual, non-past + ほうがいい
+    </extra>
+</card>
