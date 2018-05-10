@@ -32,7 +32,10 @@ function LoadCard(){
         var level = xmlDoc.getElementsByTagName("level")[cardID].childNodes[0].nodeValue;
         
         switch(level){
+                case "N3":
+                grammar.style.backgroundColor = 'yellow';
             case "N4":
+                grammar.style.backgroundColor = 'blue';
                 break;
             default:
                 grammar.style.backgroundColor = 'green';
