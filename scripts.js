@@ -41,7 +41,7 @@ function LoadCard(){
                 case "N3":
                 document.getElementById("Grammar").style.backgroundColor = 'yellow';
             case "N4":
-                document.getElementById("Grammar").style.backgroundColor = 'lightblue';
+                document.getElementById("Grammar").style.backgroundColor = 'DodgerBlue';
                 break;
             default:
                 document.getElementById("Grammar").style.backgroundColor = 'lightgreen';
