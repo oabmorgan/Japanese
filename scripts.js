@@ -53,6 +53,10 @@ function LoadCard(){
         document.getElementById("ExampleText").innerHTML = exampleAnswer;
         document.getElementById("EnglishText").innerHTML = english;
         document.getElementById("NotesText").innerHTML = notes;
+    
+    document.getElementById("ExampleText").style.visibility = 'hidden';
+    document.getElementById("EnglishText").style.visibility = 'hidden';
+    document.getElementById("NotesText").style.visibility = 'hidden';
 }
 
 xml.open("GET", "content.xml", true);
