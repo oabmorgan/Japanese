@@ -197,7 +197,7 @@ Noun + の後で</notes>
         <english>if… then (ば conditional)</english>
         <example>このボタンを押せば、ドアが開きます。</example>
         <exampleAnswer>If you push this button, the door will open.</exampleAnswer>
-        <notes></notes>
+        <notes>.</notes>
     </card>
     <card>
         <level>N4</level>
@@ -254,9 +254,9 @@ Noun + だけで</notes>
         <level>N4</level>
         <grammar>がする </grammar>
         <english>smell; hear; taste</english>
-        <example>Noun + がする</example>
+        <example>There’s a sound of piano coming from the house next door.</example>
         <exampleAnswer>隣の家でピアノの音がしている。</exampleAnswer>
-        <notes>There’s a sound of piano coming from the house next door.</notes>
+        <notes>Noun + がする</notes>
     </card>
     <card>
         <level>N4</level>
