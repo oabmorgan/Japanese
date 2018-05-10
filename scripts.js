@@ -44,7 +44,7 @@ function LoadCard(){
                 document.getElementById("Grammar").style.backgroundColor = 'blue';
                 break;
             default:
-                document.getElementById("Grammar").style.backgroundColor = 'green';
+                document.getElementById("Grammar").style.backgroundColor = 'lightgreen';
         }
         
         
