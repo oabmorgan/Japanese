@@ -168,4 +168,166 @@ Noun +　だから</notes>
         <exampleAnswer>Sorry, I have an appointment to meet with someone next Sunday for work…</exampleAnswer>
         <notes>Sentence + けど/けれど/けれども</notes>
     </card>
+    
+    <card>
+        <level>N4</level>
+        <grammar>あまり～ない</grammar>
+        <english>not very; not much</english>
+        <example>鶏肉はあまり好きじゃないです。</example>
+        <exampleAnswer>I don’t like chicken very much.</exampleAnswer>
+        <notes>あまり + Verb-ないform
+あまり + Noun + じゃない/ではない
+あまり + いadj (－い) + くない
+あまり + なadj + じゃない/ではない</notes>
+    </card>
+    
+    <card>
+        <level>N4</level>
+        <grammar>た後で</grammar>
+        <english>after; later</english>
+        <example>昼ごはんの後で友達とお茶を飲みました。</example>
+        <exampleAnswer>I drank tea with my friends after having lunch.</exampleAnswer>
+        <notes>Verb-casual, past + 後で
+Noun + の後で</notes>
+    </card>
+    
+    <card>
+        <level>N4</level>
+        <grammar>ば</grammar>
+        <english>if… then (ば conditional)</english>
+        <example>このボタンを押せば、ドアが開きます。</example>
+        <exampleAnswer>If you push this button, the door will open.</exampleAnswer>
+        <notes></notes>
+    </card>
+    <card>
+        <level>N4</level>
+        <grammar>場合は</grammar>
+        <english>if; in the case; in the event of</english>
+        <example>このすばらしい申し出を僕が拒絶した場合はいかがなされます？</example>
+        <exampleAnswer>And in the event of my refusing this great offer?</exampleAnswer>
+        <notes>Verb-casual + 場合（は）
+Noun + の場合（は）</notes>
+    </card>
+    <card>
+        <level>N4</level>
+        <grammar>だけで </grammar>
+        <english>just by; just by doing</english>
+        <example>彼が父親の名前だけでぎくりとした。</example>
+        <exampleAnswer>He winced at the sound of his father’s name.</exampleAnswer>
+        <notes>Verb-casual + だけで
+Noun + だけで</notes>
+    </card>
+    <card>
+        <level>N4</level>
+        <grammar>出す</grammar>
+        <english> to suddenly begin; to suddenly appear; …out</english>
+        <example>雨が急に降り出した。</example>
+        <exampleAnswer>It suddenly started raining.</exampleAnswer>
+        <notes>Verb-stem + 出す</notes>
+    </card>
+    <card>
+        <level>N4</level>
+        <grammar>でも</grammar>
+        <english>…or something</english>
+        <example>Noun + でも</example>
+        <exampleAnswer>Since we’re free, let’s play games or something.</exampleAnswer>
+        <notes>Noun + でも</notes>
+    </card>
+    <card>
+        <level>N4</level>
+        <grammar>でございます</grammar>
+        <english>to be (the polite form of です)</english>
+        <example>こちらは社長の山田でございます。</example>
+        <exampleAnswer>kochira wa shachou no yamada de gozaimasu.</exampleAnswer>
+        <notes>です => でございます</notes>
+    </card>
+    <card>
+        <level>N4</level>
+        <grammar>がる</grammar>
+        <english>to show signs of; to feel; to think; to behave as if</english>
+        <example>怖がらないでください。</example>
+        <exampleAnswer>Please don’t be afraid.</exampleAnswer>
+        <notes>いadj (－い) + がる
+なadj + がる</notes>
+    </card>
+    <card>
+        <level>N4</level>
+        <grammar>がする </grammar>
+        <english>smell; hear; taste</english>
+        <example>Noun + がする</example>
+        <exampleAnswer>隣の家でピアノの音がしている。</exampleAnswer>
+        <notes>There’s a sound of piano coming from the house next door.</notes>
+    </card>
+    <card>
+        <level>N4</level>
+        <grammar>ごろ</grammar>
+        <english>around; about</english>
+        <example>このごろ寒くなってきた。</example>
+        <exampleAnswer>It’s been cold lately.</exampleAnswer>
+        <notes>Noun (time) + ごろ: around, about
+Verb-dictionary form + ごろ: by the time
+Noun + のころ: when</notes>
+    </card>
+    <card>
+        <level>N4</level>
+        <grammar>ございます</grammar>
+        <english>to be, to exist (the polite form of いる/ある)</english>
+        <example>いる/ある => ございます</example>
+        <exampleAnswer>watashi wa kyoudai ga gozaimasen.</exampleAnswer>
+        <notes>いる/ある => ございます</notes>
+    </card>
+    <card>
+        <level>N4</level>
+        <grammar> 始める</grammar>
+        <english>to start…; to begin to…</english>
+        <example>生花を習いはじめて、もう半年経った。</example>
+        <exampleAnswer>It’s been half a year since I started learning flower arrangement.</exampleAnswer>
+        <notes>Verb-ますstem + 始める</notes>
+    </card>
+    <card>
+        <level>N4</level>
+        <grammar>はずだ</grammar>
+        <english>it must be, it should be</english>
+        <example>寒いはずです。雪が降ってきました。</example>
+        <exampleAnswer>It must be cold. It has started snowing.</exampleAnswer>
+        <notes>Verb-casual + はずだ
+いadjective + はずだ
+なadjective + なはずだ
+Noun + のはずだ</notes>
+    </card>
+    <card>
+        <level>N4</level>
+        <grammar>はずがない</grammar>
+        <english>cannot be; it’s impossible that</english>
+        <example>そんな難しい問題は小学生ができるはずがない</example>
+        <exampleAnswer>There’s no way an elementary school student can answer such a difficult question.</exampleAnswer>
+        <notes>Verb-casual + はずがない
+Noun + のはずがない
+いadj + はずがない
+なadj + なはずがない</notes>
+    </card>
+    <card>
+        <level>N4</level>
+        <grammar>必要</grammar>
+        <english>Need; necessary</english>
+        <example>お金が必要です</example>
+        <exampleAnswer>I need money.</exampleAnswer>
+        <notes>Noun + が必要だ</notes>
+    </card>
+    <card>
+        <level>N4</level>
+        <grammar>必要がある</grammar>
+        <english>need, it is necessary to</english>
+        <example>なんで彼がそんなことをする必要があるんだ？</example>
+        <exampleAnswer>Why would he need to do something like that?</exampleAnswer>
+        <notes>Verb-dictionary form + 必要がある</notes>
+    </card>
+    <card>
+        <level>N4</level>
+        <grammar>欲しい</grammar>
+        <english> to want something; to be in need of</english>
+        <example>Noun + が欲しい</example>
+        <exampleAnswer>わたしはパソコンが欲しいです。</exampleAnswer>
+        <notes>I want a computer.</notes>
+    </card>
 </cards>
