@@ -18,17 +18,25 @@ notes.onclick = function() {
 
 var xml = new XMLHttpRequest();
 
-xml.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-        var xmlDoc = xml.responseXML;
+function LoadCard(){
+    var xmlDoc = xml.responseXML;
         var cardCount = xmlDoc.getElementsByTagName("card").length;
-        var cardID = Math.floor(Math.random() * (cardCount));
+        var cardID = Math.floor(Math.random() * (cardCount-1));
         
         var grammar = xmlDoc.getElementsByTagName("grammar")[cardID].childNodes[0].nodeValue;
         var example = xmlDoc.getElementsByTagName("example")[cardID].childNodes[0].nodeValue;
         var exampleAnswer = xmlDoc.getElementsByTagName("exampleAnswer")[cardID].childNodes[0].nodeValue;
         var english = xmlDoc.getElementsByTagName("english")[cardID].childNodes[0].nodeValue;
         var notes = xmlDoc.getElementsByTagName("notes")[cardID].childNodes[0].nodeValue;
+    
+        var level = xmlDoc.getElementsByTagName("level")[cardID].childNodes[0].nodeValue;
+        
+        switch(level){
+            case "N4":
+                break;
+            default:
+                grammar.style.backgroundColor = 'green';
+        }
         
         
         document.getElementById("GrammarTitle").innerHTML = grammar;
@@ -36,8 +44,15 @@ xml.onreadystatechange = function() {
         document.getElementById("ExampleText").innerHTML = exampleAnswer;
         document.getElementById("EnglishText").innerHTML = english;
         document.getElementById("NotesText").innerHTML = notes;
+}
+
+xml.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        LoadCard();
     }
 };
+
+
 
 xml.open("GET", "content.xml", true);
 xml.send();
