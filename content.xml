@@ -1,6 +1,7 @@
 <cards>
     
     <card>
+        <level>N5</level>
         <grammar>だ / です</grammar>
         <english>to be (copula)</english>
         <example>それは非常に面白いコメントですね。</example>
@@ -12,6 +13,7 @@ Past negative: じゃなかった/ではなかった (plain); ではありませ
     </card>
     
     <card>
+        <level>N5</level>
         <grammar>だけ</grammar>
         <english>only, just</english>
         <example>病室にあるのは、ひとり用のベッドが一床だけだ。</example>
@@ -23,6 +25,7 @@ Noun + だけ</notes>
     </card>
     
     <card>
+        <level>N5</level>
         <grammar>だろう</grammar>
         <english>probably; seems; I think; I guess; I wonder; I hope; don’t you agree?</english>
         <example>どうして私はあんなことをせずにこうしなかったのだろう。</example>
@@ -34,6 +37,7 @@ Noun + だろう</notes>
     </card>
     
     <card>
+        <level>N5</level>
         <grammar>で - 1</grammar>
         <english>in, at, on</english>
         <example>この帽子はどこで買いましたか？</example>
@@ -42,6 +46,7 @@ Noun + だろう</notes>
     </card>
     
     <card>
+        <level>N5</level>
         <grammar>で - 2</grammar>
         <english>by; for; in; using; with</english>
         <example>震える指で、彼女は封筒を開けた。</example>
@@ -50,6 +55,7 @@ Noun + だろう</notes>
     </card>
     
     <card>
+        <level>N5</level>
         <grammar>でしょう</grammar>
         <english>I think, probably</english>
         <example>明日は雨が降るでしょう。</example>
@@ -58,6 +64,7 @@ Noun + だろう</notes>
     </card>
     
     <card>
+        <level>N5</level>
         <grammar>が - 1</grammar>
         <english>subject marker</english>
         <example>非常階段があるな。これは便利だ。</example>
@@ -66,6 +73,7 @@ Noun + だろう</notes>
     </card>
     
     <card>
+        <level>N5</level>
         <grammar>が - 2</grammar>
         <english>but, however, still</english>
         <example>このアパートは古くて狭いが、学校から近くて便利だ。</example>
@@ -74,6 +82,7 @@ Noun + だろう</notes>
     </card>
     
     <card>
+        <level>N5</level>
         <grammar>がある</grammar>
         <english>to be, to exist</english>
         <example>お金がありません。</example>
@@ -82,6 +91,7 @@ Noun + だろう</notes>
     </card>
     
     <card>
+        <level>N5</level>
         <grammar>がいる</grammar>
         <english>to exist, there is/are</english>
         <example>教室には生徒がいる。</example>
@@ -90,6 +100,7 @@ Noun + だろう</notes>
     </card>
     
     <card>
+        <level>N5</level>
         <grammar>ほうがいい</grammar>
         <english>had better, should, it’d be better to</english>
         <example>英会話をもっと練習したほうがいい。</example>
@@ -99,6 +110,7 @@ Verb-casual, non-past + ほうがいい</notes>
     </card>
     
     <card>
+        <level>N5</level>
         <grammar>いちばん</grammar>
         <english>the most, the best</english>
         <example>私は少女漫画を読むのが一番好きだ。</example>
@@ -108,6 +120,7 @@ Verb-dictionary form + のは/のが一番 + adjective + だ</notes>
     </card>
     
     <card>
+        <level>N5</level>
         <grammar>か - 2</grammar>
         <english>or</english>
         <example>大抵の家には二人か三人の子どもがいました。</example>
@@ -118,6 +131,7 @@ Adjective + か</notes>
     </card>
     
     <card>
+        <level>N5</level>
         <grammar>か – 1</grammar>
         <english>question particle</english>
         <example>どうやってベッドを動かしたか教えてくれる？</example>
@@ -126,6 +140,7 @@ Adjective + か</notes>
     </card>
     
     <card>
+        <level>N5</level>
         <grammar>から - 1</grammar>
         <english>since, because</english>
         <example>寒いから、窓を閉めてください。</example>
@@ -137,13 +152,16 @@ Noun +　だから</notes>
     </card>
     
     <card>
+        <level>N5</level>
         <grammar>から - 2</grammar>
         <english>from, since</english>
         <example>ここから新宿駅まで歩いてどれぐらいかかりますか。</example>
         <exampleAnswer>How long does it take to walk from here to Shinjuku station?</exampleAnswer>
         <notes>Noun + から</notes>
     </card>
+    
     <card>
+        <level>N5</level>
         <grammar>けど / けれども</grammar>
         <english>but; however; although</english>
         <example>悪いけど、次の日曜日は仕事で人と会う約束があって…</example>
