@@ -39,12 +39,12 @@ function LoadCard(){
         
         switch(level){
                 case "N3":
-                grammar.style.backgroundColor = 'yellow';
+                document.getElementById("Grammar").style.backgroundColor = 'yellow';
             case "N4":
-                grammar.style.backgroundColor = 'blue';
+                document.getElementById("Grammar").style.backgroundColor = 'blue';
                 break;
             default:
-                grammar.style.backgroundColor = 'green';
+                document.getElementById("Grammar").style.backgroundColor = 'green';
         }
         
         
