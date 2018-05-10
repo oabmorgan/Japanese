@@ -18,6 +18,12 @@ notes.onclick = function() {
 
 var xml = new XMLHttpRequest();
 
+xml.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        LoadCard();
+    }
+};
+
 function LoadCard(){
     var xmlDoc = xml.responseXML;
         var cardCount = xmlDoc.getElementsByTagName("card").length;
@@ -48,14 +54,6 @@ function LoadCard(){
         document.getElementById("EnglishText").innerHTML = english;
         document.getElementById("NotesText").innerHTML = notes;
 }
-
-xml.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-        LoadCard();
-    }
-};
-
-
 
 xml.open("GET", "content.xml", true);
 xml.send();
