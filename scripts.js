@@ -31,6 +31,7 @@ function RandomCard(){
 }
 
 function LoadCard(){
+    var xmlDoc = xml.responseXML;
         var grammar = xmlDoc.getElementsByTagName("grammar")[cardID].childNodes[0].nodeValue;
         var example = xmlDoc.getElementsByTagName("example")[cardID].childNodes[0].nodeValue;
         var exampleAnswer = xmlDoc.getElementsByTagName("exampleAnswer")[cardID].childNodes[0].nodeValue;
