@@ -24,7 +24,7 @@ function Newcard(cardID){
     document.getElementById("PageNumber").innerHTML = card.getAttribute('page');
     document.getElementById("Notes").innerHTML = card.getAttribute('notes');
     
-    HideAll();
+    //HideAll();
 }
 
 xml.onreadystatechange = function() {
