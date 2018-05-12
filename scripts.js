@@ -17,7 +17,7 @@ function ShowAll(){
 function Newcard(cardID){
     var xmlDoc = xml.responseXML;
     var card = xmlDoc.getElementsByTagName('card')[0];
-    document.getElementById("Grammar").innerHTML = card.getElementsByTagName('grammar')[0];
+    document.getElementById("Grammar").innerHTML = card.getAttribute('grammar');
     document.getElementById("Meaning").innerHTML =  card.getAttribute('meaning');
     document.getElementById("ExampleJP").innerHTML =  card.getAttribute('example');
     document.getElementById("ExampleEN").innerHTML =  card.getAttribute('exmeaning');
