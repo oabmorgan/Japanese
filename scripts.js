@@ -24,6 +24,15 @@ xml.onreadystatechange = function() {
     }
 };
 
+function NextCard(var Random){
+    if(Random){
+        RandomCard();
+    } else{
+        cardID ++;
+    }
+    LoadCard();
+}
+
 function RandomCard(){
     var xmlDoc = xml.responseXML;
         var cardCount = xmlDoc.getElementsByTagName("card").length;
