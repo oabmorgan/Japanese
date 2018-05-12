@@ -24,7 +24,7 @@ xml.onreadystatechange = function() {
     }
 };
 
-function NextCard(var Random){
+function NextCard(Random){
     if(Random){
         RandomCard();
     } else{
