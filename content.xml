@@ -11,14 +11,14 @@
     </card>
 -->
 
-    <card>
-        <grammar>より…　／　～ほど…ません</grammar>
-        <meaning>express the extend of something by comparison with something else.</meaning>
-        <example>このアパートは前のアパートよりべんりです</example>
-        <exmeaning>This appartment is more convenient than the previous one.</exmeaning>
-        <page>32</page>
-        <notes>test</notes>
-    </card>
+    <card
+          grammar = "より…　／　～ほど…ません"
+          meaning = "express the extend of something by comparison with something else."
+          exampleJP = "このアパートは前のアパートよりべんりです"
+          exampleEN = "This appartment is more convenient than the previous one."
+          page = "32"
+          notes ""
+          ></card>
     
     
     
