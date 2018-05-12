@@ -21,7 +21,7 @@ function Newcard(cardID){
     document.getElementById("Meaning").innerHTML =  card.getAttribute('meaning');
     document.getElementById("ExampleJP").innerHTML =  card.getAttribute('exampleJP');
     document.getElementById("ExampleEN").innerHTML =  card.getAttribute('exampleEN');
-    document.getElementById("PageNumber").innerHTML = card.getAttribute('grammar');
+    document.getElementById("PageNumber").innerHTML = card.getAttribute('page');
     document.getElementById("Notes").innerHTML = card.getAttribute('notes');
     
     //HideAll();
