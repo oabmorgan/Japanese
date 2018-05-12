@@ -26,6 +26,7 @@ function Newcard(cardID){
     
     //HideAll();
     
+    console.log(card);
     console.log(card.getAttribute('grammar'));
 }
 
