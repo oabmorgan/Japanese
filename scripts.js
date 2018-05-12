@@ -3,7 +3,7 @@ var example = document.getElementById("Example");
 var english = document.getElementById("English");
 var notes = document.getElementById("Notes");
 var button = document.getElementById("Button");
-
+var CardID = 0;
 example.onclick = function() {
     document.getElementById("ExampleText").style.visibility = 'visible';
 };
@@ -20,15 +20,17 @@ var xml = new XMLHttpRequest();
 
 xml.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-        LoadCard();
+        LoadCard(0);
     }
 };
 
-function LoadCard(){
+function RandomCard(){
     var xmlDoc = xml.responseXML;
         var cardCount = xmlDoc.getElementsByTagName("card").length;
-        var cardID = Math.floor(Math.random() * (cardCount-1));
-        
+        CardID = Math.floor(Math.random() * (cardCount-1));
+}
+
+function LoadCard(){
         var grammar = xmlDoc.getElementsByTagName("grammar")[cardID].childNodes[0].nodeValue;
         var example = xmlDoc.getElementsByTagName("example")[cardID].childNodes[0].nodeValue;
         var exampleAnswer = xmlDoc.getElementsByTagName("exampleAnswer")[cardID].childNodes[0].nodeValue;
