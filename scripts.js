@@ -3,7 +3,7 @@ var example = document.getElementById("Example");
 var english = document.getElementById("English");
 var notes = document.getElementById("Notes");
 var button = document.getElementById("Button");
-var CardID = 0;
+var cardID = 0;
 example.onclick = function() {
     document.getElementById("ExampleText").style.visibility = 'visible';
 };
@@ -27,7 +27,7 @@ xml.onreadystatechange = function() {
 function RandomCard(){
     var xmlDoc = xml.responseXML;
         var cardCount = xmlDoc.getElementsByTagName("card").length;
-        CardID = Math.floor(Math.random() * (cardCount-1));
+        cardID = Math.floor(Math.random() * (cardCount-1));
 }
 
 function LoadCard(){
