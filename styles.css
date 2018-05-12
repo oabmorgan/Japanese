@@ -4,76 +4,22 @@ body {
 }
 
 a {
-    color: white;
-    padding: 5px 5px 5px 5px;
-    
+    color: white;    
     background-color:black;
 }
 
 div{
-    margin: 5px;
-    padding: 5px;
+    background-color: aliceblue;
 }
 
-#GrammarTitle{
-    font-size:1.2em;
-}
-
-#ExampleTitle{
-    font-size:1.2em;
-}
-
-#EnglishTitle{
-    font-size:1.2em;
-}
-
-#NotesTitle{
-    font-size:1.2em;
-}
-
-
-#ExampleText{
-    visibility: hidden;
-}
-
-#GrammarText{
-    visibility: hidden;
-}
-
-#EnglishText{
-    visibility: hidden;
-}
-
-#NotesText{
-    visibility: hidden;
+#PageNumber{
+    width: 10%;
 }
 
 #Grammar{
-    background-color: aquamarine;
-    text-align: center;
-    font-size: 2em;
+    width: 80%;
 }
 
-#Example{
-    background-color: gold;
-}
-
-#English{
-    background-color: deeppink;
-}
-
-#Notes{
-    background-color: deepskyblue;
-}
-
-#Button {
-    margin: 5px;
-    padding: 5px;
-    background-color: greenyellow;
-    border: none;
-    color: white;
-    padding: 15px 25px;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
+#Header{
+    display: flex;
 }

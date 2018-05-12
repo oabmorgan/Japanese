@@ -7,6 +7,7 @@
         <example></example>
         <exmeaning></exmeaning>
         <page></page>
+        <notes></notes>
     </card>
 -->
 
@@ -16,6 +17,7 @@
         <example>このアパートは前のアパートよりべんりです</example>
         <exmeaning>This appartment is more convenient than the previous one.</exmeaning>
         <page>32</page>
+        <notes>test</notes>
     </card>
     
     
