@@ -25,6 +25,8 @@ function Newcard(cardID){
     document.getElementById("Notes").innerHTML = card.getAttribute('notes');
     
     //HideAll();
+    
+    console.log(card.getAttribute('grammar'));
 }
 
 xml.onreadystatechange = function() {
